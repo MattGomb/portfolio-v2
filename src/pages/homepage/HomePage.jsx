@@ -4,10 +4,9 @@ import { Welcome } from '@/components/welcome';
 export default function HomePage() {
   return (
     <>
-      <h1>Welcome to my portfolio!</h1>
       <Welcome />
       <p>
-        <Link href="/">Back to home</Link>
+        <Link href="/">Back to the top</Link>
       </p>
     </>
   );
