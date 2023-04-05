@@ -1,12 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
 import '@/styles/globals.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import Script from 'next/script'
+import "@fortawesome/fontawesome-svg-core/styles.css"; 
+import { config } from "@fortawesome/fontawesome-svg-core";
+import { useEffect } from "react";
+
+config.autoAddCss = false; 
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
+
   return (
     <>
       <Component {...pageProps} />
-      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"/>
     </>
   )
 }
