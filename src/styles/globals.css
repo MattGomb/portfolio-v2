@@ -1,0 +1,7 @@
+.height {
+  height: calc(100vh - 4rem);
+}
+
+.card-b:hover {
+  cursor: pointer;
+}
