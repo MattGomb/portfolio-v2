@@ -1,7 +1,7 @@
 export const Recommendations = () => {
   return (
     <>
-      <section id="recommendations" className="py-5">
+      <section id="recommendations" className="d-flex flex-column justify-content-center py-5">
         <h1 className="text-light text-center py-4">Recommendations:</h1>
         <div
           id="carouselExampleIndicators"

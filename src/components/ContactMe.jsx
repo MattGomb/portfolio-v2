@@ -13,7 +13,7 @@ import {
 export const Contact = () => {
   return (
     <>
-      <section id="contact">
+      <section id="contact" className="d-flex flex-column justify-content-center">
         <div className="m-3 p-3 d-flex flex-column align-items-center bg-dark text-light">
           <div className="d-flex flex-column align-items-center mb-5">
             <h1 className="my-5">Contact me:</h1>

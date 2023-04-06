@@ -4,7 +4,7 @@ export const About = () => {
     <>
       <section
         id="about"
-        className="text-dark"
+        className="text-dark d-flex flex-column justify-content-center align-items-center"
       >
         <div className="py-5 d-flex flex-column align-items-center parallax2">
           <h1 className="py-3">About me</h1>
