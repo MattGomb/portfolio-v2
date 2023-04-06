@@ -4,6 +4,7 @@ body {
   font-family: 'Playfair Display', serif !important;
 }
 
+
 .card-b:hover {
   cursor: pointer;
 }
@@ -40,8 +41,6 @@ body {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-
 /* Style the back side */
 .flip-card-back {
   transform: rotateY(180deg);
@@ -51,7 +50,6 @@ body {
   border: 1px solid #5bc0de;
   font-family: "Cinzel", serif;
   cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -90,15 +88,6 @@ body {
   width: 60px;
 }
 
-.noselect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
 .nav-link:hover::before {
   width: 0px;
   background: #212529;
@@ -111,4 +100,35 @@ body {
 
 .nav-link:hover {
   background: #212529;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/images/backgrounds/mountains3.jpg");
+
+  /* Set a specific height */
+  min-height: 22rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1b, .parallax2b {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("/images/backgrounds/mountains2.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
