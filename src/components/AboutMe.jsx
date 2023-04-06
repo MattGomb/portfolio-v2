@@ -8,7 +8,7 @@ export const About = () => {
       >
         <div className="py-5 d-flex flex-column align-items-center parallax2">
           <h1 className="py-3">About me</h1>
-          <div className="row justify-content-center gap-3">
+          <div className="row justify-content-center gap-3 gx-0">
             <p className="col border border-info border-opacity-25 rounded border-2 py-2 lead col-sm-11 col-md-8 col-xl-5 parallax2b">
               My name is Mátyás Gombos (just call me Matt) and I am a fullstack
               web developer. I started my journey in 2022, with the{" "}
