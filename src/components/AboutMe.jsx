@@ -4,21 +4,19 @@ export const About = () => {
     <>
       <section
         id="about"
-        className="py-5 bg-light text-dark border-top border-bottom border-warning"
+        className="text-dark"
       >
-        <div className=" d-flex flex-column align-items-center">
+        <div className="py-5 d-flex flex-column align-items-center parallax2">
           <h1 className="py-3">About me</h1>
-          <div className="mx-2 row">
-            <p className="col border border-info border-opacity-25 rounded border-2 mx-2 p-3 my-0 lead">
+          <div className="row justify-content-center gap-3">
+            <p className="col border border-info border-opacity-25 rounded border-2 py-2 lead col-sm-11 col-md-8 col-xl-5 parallax2b">
               My name is Mátyás Gombos (just call me Matt) and I am a fullstack
               web developer. I started my journey in 2022, with the{" "}
               <a
-                className="btn btn-info"
+                className="text-dark"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://www.microverse.org/"
-                role="button"
-                style={{ textDecoration: "none", color: "white" }}
               >
                 MICROVERSE
               </a>{" "}
@@ -31,7 +29,7 @@ export const About = () => {
               free time I love to watch tv-shows, play boardgames, play the
               guitar, bake, and find new restaurants to try out with my wife.
             </p>
-            <div className="col border border-info border-opacity-25 rounded border-2 mx-2 p-3">
+            <div className="col border border-info border-opacity-25 rounded border-2 py-2 col-sm-11 col-md-8 col-xl-5 parallax2b">
               <h3 className="mb-4">My stacks and skills are: </h3>
               <div className="d-flex mb-4 gap-3 align-items-baseline">
                 <p>Frontend:</p>
@@ -125,7 +123,7 @@ export const About = () => {
                   </a>{" "}
                 </div>
               </div>
-              <div className="d-flex gap-3 align-items-baseline">
+              <div className="d-flex gap-3 align-items-baseline flex-wrap">
                 <p>Tools & methods:</p>
                 <div className="d-flex gap-3">
                   {" "}

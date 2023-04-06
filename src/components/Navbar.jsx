@@ -3,7 +3,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg sticky-top navbar-dark bg-dark px-2">
-        <a className="navbar-brand px-2" href="#">LOGO</a>
+        <a className="navbar-brand px-2" href="#welcome">MattGomb</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
