@@ -132,3 +132,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#welcome, #projects, #recommendations, #about, #contact {
+  min-height: 100svh;
+}
