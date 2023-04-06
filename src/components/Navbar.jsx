@@ -8,12 +8,12 @@ export const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup" style={{ justifyContent: 'end' }}>
-          <div className="navbar-nav">
-            <a className="nav-item nav-link" href="#">Welcome</a>
-            <a className="nav-item nav-link" href="#">Projects</a>
-            <a className="nav-item nav-link" href="#">Recommendations</a>
-            <a className="nav-item nav-link" href="#">About Me</a>
-            <a className="nav-item nav-link" href="#">Contact Me</a>
+          <div className="navbar-nav me-3">
+            <a className="nav-item nav-link link1 my-2 me-2" href="#welcome">Welcome</a>
+            <a className="nav-item nav-link link2 my-2 me-2" href="#projects">Projects</a>
+            <a className="nav-item nav-link link3 my-2 me-2" href="#recommendations">Recommendations</a>
+            <a className="nav-item nav-link link4 my-2 me-2" href="#about">About Me</a>
+            <a className="nav-item nav-link link5 my-2 me-2" href="#contact">Contact Me</a>
           </div>
         </div>
       </nav>
