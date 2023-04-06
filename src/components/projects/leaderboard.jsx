@@ -66,7 +66,7 @@ export const Leaderboard = () => {
                 A simple one-page leaderboard, where people can enter their name
                 and score, and be displayed if they reached the top 10. The name
                 and score inputs have length restrictions so that the inputs
-                can't break the display.
+                can&apos;t break the display.
               </p>
               <div className="d-flex flex-row justify-content-around">
                 <a

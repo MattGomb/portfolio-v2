@@ -74,12 +74,12 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "I had the opportunity to work with Mátyás many times toward the
+                &quot;I had the opportunity to work with Mátyás many times toward the
                 end of the Microverse technical curriculum,and every time he
                 showed great determination and skills as a developer. He has
                 excellent leadership skills, is very open to learning, and
                 always aims to deliver a high-quality final product. I am
-                positive that he would be a great addition to any team."
+                positive that he would be a great addition to any team.&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -95,13 +95,13 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "I met Matt during the first weeks of Microverse, and I can say
+              &quot;I met Matt during the first weeks of Microverse, and I can say
                 that he is one of the most talented and brilliant people that I
                 have ever come across during the course, helping me and our
                 colleagues whenever we needed it. He is extremely intelligent,
                 knows how to work very well in a team and above all, he is very
-                kind and hardworking. I'm sure he'll be a great addition to any
-                team lucky enough to have him."
+                kind and hardworking. I&apos;m sure he&apos;ll be a great addition to any
+                team lucky enough to have him.&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -117,11 +117,11 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "Matt is a complete programmer. I met him at the Microverse
+              &quot;Matt is a complete programmer. I met him at the Microverse
                 Program and we made a couple of projects together, in which he
                 work clearly and perfectly organized, he never lost a meeting,
                 and he always did it with a smile on his face, for addition he
-                always was there if any partners needed help!"
+                always was there if any partners needed help!&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -137,7 +137,7 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "I have known Gombos Matyas since August 2022, during pair
+              &quot;I have known Gombos Matyas since August 2022, during pair
                 programming both at the morning session and collaboration
                 sessions of online learning at Microverse. Matyas has taught me
                 tolerance, humbleness, punctuality, and respect for his
@@ -146,7 +146,7 @@ export const Recommendations = () => {
                 experienced during pair programming at Microverse, I have found
                 Matyas my choice to be my life mentor, too. I reach out to him
                 whenever I experience confusion or get stuck while doing
-                projects."
+                projects.&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -162,11 +162,11 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "Matyas Gombos is a person who is quite focused on his tasks and
+              &quot;Matyas Gombos is a person who is quite focused on his tasks and
                 quite good at perceiving minimal details that can go unnoticed
                 at the time of coding, he is excellent at expressing and sharing
                 opinions, in addition to having good programming logic, I highly
-                recommend him and without any exception."
+                recommend him and without any exception.&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -182,12 +182,12 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "Gombos Matyas is a logical person. Always open to finding
+              &quot;Gombos Matyas is a logical person. Always open to finding
                 solutions to tasks. Always early to meetings and I really loved
                 working together with him on multiple projects. He is always
                 ready to face tasks head-on and give help when he can. Any
                 company that hires Matyas will definitely see his value. I hope
-                we get to work together again."
+                we get to work together again.&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -203,9 +203,9 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "Gombos is an intelligent person and a Teamplayer, studying and
+              &quot;Gombos is an intelligent person and a Teamplayer, studying and
                 performing some coding task, made me learn a lot from him. I
-                Recommend him for any job role related to his career."
+                Recommend him for any job role related to his career.&quot;
               </p>
             </div>
             <div className="carousel-item card bg-dark text-light border-info py-3 px-4">
@@ -221,11 +221,11 @@ export const Recommendations = () => {
                 LinkedIn
               </a>
               <p className="fst-italic">
-                "Mátyás is a hardworking, intelligent, and teamwork
+              &quot;Mátyás is a hardworking, intelligent, and teamwork
                 professional. He has a unique eye to see details and a fast
                 brain for analyzing problems. I can see his amazingly positive
                 attitude and bigheartedness for others. I am confident that
-                Mátyás Gombos would be a great fit for any tech company."
+                Mátyás Gombos would be a great fit for any tech company.&quot;
               </p>
             </div>
           </div>

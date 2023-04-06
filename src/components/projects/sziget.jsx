@@ -36,7 +36,7 @@ export const Sziget = () => {
           </div>
           <p className="card-text">
             The first capstone project, where i recreate the Hungarian SZIGET
-            festival's website according to the project-requirement-guidelines.
+            festival&apos;s website according to the project-requirement-guidelines.
             This project is a combination of all the tips and tricks we have
             learned up to that point.
           </p>
@@ -66,7 +66,7 @@ export const Sziget = () => {
               />
               <p className="py-4">
                 The first capstone project, where i recreate the Hungarian
-                SZIGET festival's website according to the
+                SZIGET festival&apos;s website according to the
                 project-requirement-guidelines. This project is a combination of
                 all the tips and tricks we have learned up to that point.
               </p>

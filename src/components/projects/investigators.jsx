@@ -71,7 +71,7 @@ export const Investigators = () => {
                 investigator as easy and seamless as possible. With a
                 user-friendly interface and intuitive design, Private
                 Investigators is the perfect tool for anyone in need of
-                investigative services. Whether you're looking to investigate a
+                investigative services. Whether you&apos;re looking to investigate a
                 business partner, or simply need help with a personal matter,
                 Private Investigators has got you covered. Try it out today and
                 experience the power of our cutting-edge React app.

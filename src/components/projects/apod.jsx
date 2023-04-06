@@ -23,7 +23,7 @@ export const ApodReact = () => {
           </div>
         </div>
         <div className="py-2 px-4">
-          <h1 className="card-title">NASA's APoD</h1>
+          <h1 className="card-title">NASA&apos;s APoD</h1>
           <div>
             <ul
               className="d-flex flex-row gap-4 text-secondary"
@@ -73,14 +73,14 @@ export const ApodReact = () => {
                 >
                   APOD database of NASA
                 </a>
-                . Each picture-card contains a 'details'-button, which takes the
-                user to the 'details'-page, where they can read an explanation
+                . Each picture-card contains a &apos;details&apos;-button, which takes the
+                user to the &apos;details&apos;-page, where they can read an explanation
                 for the picture, see whom the picture belongs to, and the date
                 when the picture was the pic of the day (not when it was taken).
                 Moving back the user can browse and see the details of the other
                 previously displayed pictures, the collection only refreshes
                 into 10 new random pictures, when the user clicks the
-                'load/refresh' button.
+                &apos;load/refresh&apos; button.
               </p>
               <div className="d-flex flex-row justify-content-around">
                 <a
