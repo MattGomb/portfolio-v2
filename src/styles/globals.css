@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif !important;
+}
+
+
+.card-b:hover {
+  cursor: pointer;
+}
+
+.nav-link {
+  border: 1px solid #5bc0de;
+  font-family: "Cinzel", serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 1s;
+}
+
+.nav-link::before,
+.nav-link::after {
+  position: absolute;
+  background: #212529;
+  z-index: -1;
+  transition: 1s;
+  content: "";
+}
+
+.link1::before,
+.link4::before {
+  height: 50px;
+  width: 50px;
+}
+
+.link2::before {
+  height: 50px;
+  width: 45px;
+}
+
+.link3::before {
+  height: 50px;
+  width: 100px;
+}
+
+.link5::before {
+  height: 50px;
+  width: 60px;
+}
+
+.nav-link:hover::before {
+  width: 0px;
+  background: #212529;
+}
+
+.nav-link:hover::after {
+  height: 0px;
+  background: #212529;
+}
+
+.nav-link:hover {
+  background: #212529;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/images/backgrounds/mountains3.jpg");
+
+  /* Set a specific height */
+  min-height: 22rem;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1b, .parallax2b {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 1rem;
+  padding: 0 1rem;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("/images/backgrounds/mountains2.jpg");
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcome, #projects, #recommendations, #about, #contact {
+  min-height: 100vh;
+}
+
+.contact-btn {
+  width: 20rem;
+}
+
+@media only screen and (max-width: 768px) {  
+  .msg {
+    margin-top: 2rem;
+  }
+}
