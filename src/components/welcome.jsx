@@ -14,7 +14,7 @@ export const Welcome = () => {
       <section id="welcome" style={{ padding: "8rem 0" }}>
         <div className="row px-2 gx-0">
           <div
-            className="card py-3 px-5 bg-dark text-light border-info col-sm-12 col-md-6"
+            className="card py-3 px-5 bg-dark text-light border-info col-12 col-md-6"
             style={{ height: "fit-content" }}
           >
             <h1 className="display-3">MÁTYÁS GOMBOS</h1>
@@ -25,7 +25,7 @@ export const Welcome = () => {
               hestiate to contact me!
             </p>
           </div>
-          <div className="d-flex justify-content-center col-sm-12 col-md-6">
+          <div className="d-flex justify-content-center col-12 col-md-6">
             <ProfilePic />
           </div>
         </div>
