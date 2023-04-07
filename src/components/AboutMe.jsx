@@ -35,7 +35,7 @@ export const About = () => {
                 <p>Frontend:</p>
                 <div className="d-flex gap-3">
                   {" "}
-                  <a href="">
+                  <a href="https://www.w3schools.com/html/">
                     <Image
                       src="/images/icons/html.png"
                       height={48}
@@ -43,7 +43,7 @@ export const About = () => {
                       alt="html icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://www.w3schools.com/css/">
                     <Image
                       src="/images/icons/css.png"
                       height={48}
@@ -51,7 +51,7 @@ export const About = () => {
                       alt="css icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://www.javascript.com/">
                     <Image
                       src="/images/icons/javascript.png"
                       height={48}
@@ -59,7 +59,7 @@ export const About = () => {
                       alt="javascript icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://react.dev/">
                     <Image
                       src="/images/icons/react.png"
                       height={48}
@@ -67,7 +67,7 @@ export const About = () => {
                       alt="react icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://redux.js.org/">
                     <Image
                       src="/images/icons/redux.svg"
                       height={48}
@@ -75,7 +75,7 @@ export const About = () => {
                       alt="redux icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://nextjs.org/">
                     <Image
                       src="/images/icons/nextjs.png"
                       height={48}
@@ -89,7 +89,7 @@ export const About = () => {
                 <p>Backend:</p>
                 <div className="d-flex gap-3">
                   {" "}
-                  <a href="">
+                  <a href="https://www.ruby-lang.org/en/">
                     <Image
                       src="/images/icons/ruby.png"
                       height={48}
@@ -97,7 +97,7 @@ export const About = () => {
                       alt="ruby icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://rubyonrails.org/">
                     <Image
                       src="/images/icons/rails.png"
                       height={48}
@@ -105,7 +105,7 @@ export const About = () => {
                       alt="ruby on rails icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://www.postgresql.org/">
                     <Image
                       src="/images/icons/Postgresql.png"
                       height={48}
@@ -113,7 +113,7 @@ export const About = () => {
                       alt="postgre sql icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://nodejs.org/en">
                     <Image
                       src="/images/icons/nodejs.png"
                       height={48}
@@ -127,7 +127,7 @@ export const About = () => {
                 <p>Tools & methods:</p>
                 <div className="d-flex gap-3">
                   {" "}
-                  <a href="">
+                  <a href="https://github.com/">
                     <Image
                       src="/images/icons/github.svg"
                       height={48}
@@ -135,7 +135,7 @@ export const About = () => {
                       alt="github icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://git-scm.com/">
                     <Image
                       src="/images/icons/git.png"
                       height={48}
@@ -143,7 +143,7 @@ export const About = () => {
                       alt="git icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">
                     <Image
                       src="/images/icons/bootstrap.png"
                       height={48}
@@ -151,7 +151,7 @@ export const About = () => {
                       alt="bootstrap icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://sass-lang.com/">
                     <Image
                       src="/images/icons/sass.png"
                       height={48}
@@ -159,7 +159,7 @@ export const About = () => {
                       alt="sass icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://www.figma.com/">
                     <Image
                       src="/images/icons/figma.svg"
                       height={48}
@@ -167,7 +167,7 @@ export const About = () => {
                       alt="figma icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://jestjs.io/">
                     <Image
                       src="/images/icons/jest.png"
                       height={48}
@@ -175,7 +175,7 @@ export const About = () => {
                       alt="jest icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://rspec.info/">
                     <Image
                       src="/images/icons/rspec.svg"
                       height={48}
@@ -183,7 +183,7 @@ export const About = () => {
                       alt="next js icon"
                     />
                   </a>
-                  <a href="">
+                  <a href="https://webpack.js.org/">
                     <Image
                       src="/images/icons/webpack3.png"
                       height={48}
