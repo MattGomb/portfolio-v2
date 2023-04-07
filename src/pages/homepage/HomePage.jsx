@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { Welcome } from '@/components/welcome';
 import { Projects } from '@/components/Projects';
 import { Recommendations } from '@/components/Recommendations';
