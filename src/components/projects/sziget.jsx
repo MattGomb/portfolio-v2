@@ -35,7 +35,7 @@ export const Sziget = () => {
             </ul>
           </div>
           <p className="card-text">
-            The first capstone project, where i recreate the Hungarian SZIGET
+            The first capstone project, where I recreated the Hungarian SZIGET
             festival&apos;s website according to the project-requirement-guidelines.
             This project is a combination of all the tips and tricks we have
             learned up to that point.

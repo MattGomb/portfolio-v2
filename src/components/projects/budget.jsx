@@ -58,7 +58,7 @@ export const BudgetApp = () => {
             </div>
             <div className="modal-body">
               <img
-                src="/images/project-imgs/rorcap3.JPG"
+                src="/images/project-imgs/rorcap3.jpg"
                 alt="picture"
                 className="card-img"
                 style={{}}
