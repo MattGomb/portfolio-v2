@@ -22,7 +22,7 @@ export const Welcome = () => {
               Fullstack web developer. I can help you build a product, feature
               or website. Look through some of my work and experience! If you
               like what you see and have a project you need help with, don’t
-              hestiate to contact me!
+              hesitate to contact me!
             </p>
           </div>
           <div className="d-flex justify-content-center col-12 col-md-6">
