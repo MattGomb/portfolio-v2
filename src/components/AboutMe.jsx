@@ -221,7 +221,7 @@ export const About = () => {
                     rel="noopener noreferrer"
                   >
                     <Image
-                      src="/images/icons/figma.svg"
+                      src="/images/icons/Figma.svg"
                       height={48}
                       width={32}
                       alt="figma icon"
