@@ -9,6 +9,7 @@ import {
   faAngellist,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Button } from "react-bootstrap";
 
 export const Contact = () => {
   return (
@@ -46,112 +47,95 @@ export const Contact = () => {
                     +593 99 500 6183
                   </p>
                 </div>
-                <div className="pt-3">
-                  <a
-                    href="mailto: gombosonline@gmail.com"
-                    className="btn contact-btn btn-outline-info p-3"
-                    style={{ textDecoration: "none" }}
-                  >
-                    <FontAwesomeIcon icon={faAt} size="xl" className="pe-2" />
-                    gombosonline@gmail.com
-                  </a>
-                </div>
-                <div className=" pt-3">
-                  <a
-                    className="btn contact-btn btn-outline-info p-3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://github.com/MattGomb"
-                    role="button"
-                  >
-                    <FontAwesomeIcon
-                      icon={faGithub}
-                      size="xl"
-                      className="pe-2"
-                    />
-                    @MattGomb
-                  </a>
-                </div>
-                <div className="pt-3">
-                  <a
-                    className="btn contact-btn btn-outline-info p-3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.linkedin.com/in/gombos-matyas/"
-                    role="button"
-                  >
-                    <FontAwesomeIcon
-                      icon={faLinkedin}
-                      size="xl"
-                      className="pe-2"
-                    />
-                    My LinkedIn
-                  </a>
-                </div>
-                <div className="pt-3">
-                  <a
-                    className="btn contact-btn btn-outline-info p-3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://wellfound.com/u/matyas-gombos"
-                    role="button"
-                  >
-                    <FontAwesomeIcon
-                      icon={faAngellist}
-                      size="xl"
-                      className="pe-2"
-                    />
-                    Wellfound
-                  </a>
-                </div>
-                <div className="pt-3">
-                  <a
-                    className="btn contact-btn btn-outline-info p-3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://twitter.com/MtysGombos1"
-                    role="button"
-                  >
-                    <FontAwesomeIcon
-                      icon={faTwitter}
-                      size="xl"
-                      className="pe-2"
-                    />
-                    @MtysGombos1
-                  </a>
-                </div>
-                <div className="pt-3">
-                  <a
-                    className="btn contact-btn btn-outline-info p-3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.facebook.com/sentadoh/"
-                    role="button"
-                  >
-                    <FontAwesomeIcon
-                      icon={faFacebook}
-                      size="xl"
-                      className="pe-2"
-                    />
-                    @sentadoh
-                  </a>
-                </div>
-                <div className="pt-3">
-                  <a
-                    className="btn contact-btn btn-outline-info p-3"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.instagram.com/lazyhighorse/"
-                    role="button"
-                  >
-                    <FontAwesomeIcon
-                      icon={faInstagram}
-                      size="xl"
-                      className="pe-2"
-                    />
-                    @lazyhighorse
-                  </a>
-                </div>
+                <Button
+                  variant="outline-info"
+                  className="mt-3 contact-btn p-3"
+                  href="mailto: gombosonline@gmail.com"
+                  style={{ textDecoration: "none" }}
+                >
+                  <FontAwesomeIcon icon={faAt} size="xl" className="pe-2" />
+                  gombosonline@gmail.com
+                </Button>
+                <Button
+                  variant="outline-info"
+                  className="mt-3 contact-btn p-3"
+                  href="https://github.com/MattGomb"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon icon={faGithub} size="xl" className="pe-2" />
+                  @MattGomb
+                </Button>
+                <Button
+                  variant="outline-info"
+                  className="contact-btn p-3 mt-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.linkedin.com/in/gombos-matyas/"
+                >
+                  <FontAwesomeIcon
+                    icon={faLinkedin}
+                    size="xl"
+                    className="pe-2"
+                  />
+                  My LinkedIn
+                </Button>
+                <Button
+                  variant="outline-info"
+                  className="mt-3 contact-btn p-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://wellfound.com/u/matyas-gombos"
+                >
+                  <FontAwesomeIcon
+                    icon={faAngellist}
+                    size="xl"
+                    className="pe-2"
+                  />
+                  Wellfound
+                </Button>
+                <Button
+                  variant="outline-info"
+                  className="mt-3 contact-btn p-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com/MtysGombos1"
+                >
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    size="xl"
+                    className="pe-2"
+                  />
+                  @MtysGombos1
+                </Button>
+                <Button
+                  variant="outline-info"
+                  className="mt-3 contact-btn p-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/sentadoh/"
+                >
+                  <FontAwesomeIcon
+                    icon={faFacebook}
+                    size="xl"
+                    className="pe-2"
+                  />
+                  @sentadoh
+                </Button>
+                <Button
+                  variant="outline-info"
+                  className="mt-3 contact-btn p-3"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.instagram.com/lazyhighorse/"
+                >
+                  <FontAwesomeIcon
+                    icon={faInstagram}
+                    size="xl"
+                    className="pe-2"
+                  />
+                  @lazyhighorse
+                </Button>
               </div>
             </div>
             <div className="col-12 col-md-6">
@@ -190,12 +174,13 @@ export const Contact = () => {
                     placeholder="Leave your message here, and your desired contact method"
                   ></textarea>
                 </div>
-                <button
+                <Button
                   type="submit"
-                  className="btn btn-info text-light fw-semibold"
+                  variant="info"
+                  className="text-light fw-semibold"
                 >
                   Get in touch
-                </button>
+                </Button>
               </form>
             </div>
           </div>
