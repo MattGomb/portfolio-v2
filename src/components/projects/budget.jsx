@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+
 export const BudgetApp = () => {
   return (
     <>
@@ -72,35 +74,31 @@ export const BudgetApp = () => {
                 The app is hosted on Render.com, so service is spotty at best.
               </p>
               <div className="d-flex flex-row justify-content-around">
-                <a
-                  className="btn btn-info"
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://budgetappmatt.onrender.com"
-                  role="button"
                 >
                   See Live
-                </a>
-                <a
-                  className="btn btn-info"
+                </Button>
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/MattGomb/budget-app-rails"
-                  role="button"
                 >
-                  {" "}
                   See Source
-                </a>
+                </Button>
               </div>
             </div>
             <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-danger"
+              <Button
+                variant="danger"
                 data-bs-dismiss="modal"
               >
                 Close
-              </button>
+              </Button>
             </div>
           </div>
         </div>

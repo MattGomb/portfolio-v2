@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+
 export const Investigators = () => {
   return (
     <>
@@ -77,35 +79,31 @@ export const Investigators = () => {
                 experience the power of our cutting-edge React app.
               </p>
               <div className="d-flex flex-row justify-content-around">
-                <a
-                  className="btn btn-info"
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/MattGomb/final-capstone-frontend"
-                  role="button"
                 >
                   See the Frontend
-                </a>
-                <a
-                  className="btn btn-info"
+                </Button>
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/MattGomb/final-capstone-backend"
-                  role="button"
                 >
-                  {" "}
                   See the Backend
-                </a>
+                </Button>
               </div>
             </div>
             <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-danger"
+              <Button
+                variant="danger"
                 data-bs-dismiss="modal"
               >
                 Close
-              </button>
+              </Button>
             </div>
           </div>
         </div>
