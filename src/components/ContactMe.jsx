@@ -19,7 +19,7 @@ export const Contact = () => {
         className="d-flex flex-column justify-content-center"
       >
         <div className="m-3 p-3 d-flex flex-column align-items-center bg-dark text-light">
-          <div className="d-flex flex-column align-items-center mb-5">
+          <div className="d-flex flex-column align-items-center mb-1">
             <h1 className="my-5">Contact me:</h1>
             <p className="col-sm-10 col-md-8 col-lg-6">
               If you have an application you are interested in developing, a
