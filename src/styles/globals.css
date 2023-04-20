@@ -96,7 +96,7 @@ body {
   background-size: cover;
 }
 
-#welcome, #projects, #recommendations, #about, #contact {
+#welcome, #projects, #recommendations, #about {
   min-height: 100vh;
 }
 
