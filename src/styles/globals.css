@@ -51,6 +51,10 @@ body {
   width: 60px;
 }
 
+.link1, .link2, .link3, .link4, .link5 {
+  margin: 0.5rem 1rem 0.5rem 0;
+}
+
 .nav-link:hover::before {
   width: 0px;
   background: #212529;
