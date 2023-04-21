@@ -69,6 +69,26 @@ body {
   background: #212529;
 }
 
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.carousel-inner p {
+  font-style: italic;
+}
+
+.carousel-inner a {
+  margin: 1rem 0;
+}
+
+.carousel-item {
+  border: #5bc0de 1px solid;
+  border-radius: 1rem;
+  padding: 1rem 2rem 0 2rem;
+}
+
 .parallax {
   /* The image used */
   background-image: url("/images/backgrounds/mountains3.jpg");
