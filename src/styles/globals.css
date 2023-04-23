@@ -140,7 +140,7 @@ Form > div {
 }
 
 /* cv button emphasis */
-.btn {
+.buttonCV {
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -152,7 +152,7 @@ Form > div {
   border-radius: 5px;
 }
 
-.btn::before {
+.buttonCV::before {
   content: '';
   position: absolute;
   top: -2px;
@@ -180,7 +180,7 @@ Form > div {
   }
 }
 
-.btn:hover {
+.buttonCV:hover {
   background-color: transparent;
   border: 2px solid #0dcaf0;
   color: #0dcaf0;

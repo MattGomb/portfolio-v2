@@ -28,7 +28,8 @@ export const Welcome = () => {
               </p>
             </div>
             <Button
-              className="btn gradient-border"
+            variant="outline-info"
+              className="buttonCV gradient-border"
               style={{
                 margin: "3rem 0",
                 padding: "1.5rem 2rem",
