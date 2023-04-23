@@ -9,7 +9,7 @@ import {
   faAngellist,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { Button } from "react-bootstrap";
+import { Button, Form } from "react-bootstrap";
 
 export const Contact = () => {
   return (
@@ -140,40 +140,24 @@ export const Contact = () => {
             </div>
             <div className="col-12 col-md-6">
               <h3 className="mb-5 msg">Or just send me a message:</h3>
-              <form action="https://formspree.io/f/xzbqjlag" method="POST">
-                <div className="mb-3">
-                  <label htmlFor="nameinput" className="form-label">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    className="form-control"
-                    id="nameinput"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="emailinput" className="form-label">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    className="form-control"
-                    id="emailinput"
-                    placeholder="name@example.com"
-                  />
-                </div>
-                <div className="mb-3">
-                  <label htmlFor="textareainput" className="form-label">
-                    Your message
-                  </label>
-                  <textarea
-                    className="form-control"
-                    id="textareainput"
-                    rows="3"
+              <Form action="https://formspree.io/f/xzbqjlag" method="POST">
+                <Form.Group controlId="formName">
+                  <Form.Label>Name</Form.Label>
+                  <Form.Control type="text" placeholder="Your name" name="formName"/>
+                </Form.Group>
+                <Form.Group controlId="formEmail">
+                  <Form.Label>Email</Form.Label>
+                  <Form.Control type="email" placeholder="name@example.com" name="formEmail"/>
+                </Form.Group>
+                <Form.Group controlId="formMessage">
+                  <Form.Label>Your message</Form.Label>
+                  <Form.Control
+                    as="textarea"
+                    rows="5"
                     placeholder="Leave your message here, and your desired contact method"
-                  ></textarea>
-                </div>
+                    name="formMessage"
+                  ></Form.Control>
+                </Form.Group>
                 <Button
                   type="submit"
                   variant="info"
@@ -181,7 +165,7 @@ export const Contact = () => {
                 >
                   Get in touch
                 </Button>
-              </form>
+              </Form>
             </div>
           </div>
         </div>
