@@ -144,12 +144,10 @@ Form > div {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  padding: 12px 30px;
-  font-size: 16px;
-  color: #fff;
-  background-color: transparent;
-  border: 2px solid #0dcaf0;
-  border-radius: 5px;
+  color: #fff !important;
+  background-color: transparent !important;
+  border: 2px solid #0dcaf0 !important;
+  border-radius: 5px !important;
 }
 
 .buttonCV::before {
