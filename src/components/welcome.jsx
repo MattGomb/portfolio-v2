@@ -1,5 +1,3 @@
-"use client";
-
 import { ProfilePic } from "./ProfilePic";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
