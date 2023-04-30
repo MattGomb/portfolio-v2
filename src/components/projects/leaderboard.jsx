@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+
 export const Leaderboard = () => {
   return (
     <>
@@ -69,35 +71,31 @@ export const Leaderboard = () => {
                 can&apos;t break the display.
               </p>
               <div className="d-flex flex-row justify-content-around">
-                <a
-                  className="btn btn-info"
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://mattgomb.github.io/Leaderboard/dist/"
-                  role="button"
                 >
                   See Live
-                </a>
-                <a
-                  className="btn btn-info"
+                </Button>
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/MattGomb/Leaderboard"
-                  role="button"
                 >
-                  {" "}
                   See Source
-                </a>
+                </Button>
               </div>
             </div>
             <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-danger"
+              <Button
+                variant="danger"
                 data-bs-dismiss="modal"
               >
                 Close
-              </button>
+              </Button>
             </div>
           </div>
         </div>

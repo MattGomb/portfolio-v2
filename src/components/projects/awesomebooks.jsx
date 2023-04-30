@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+
 export const AwesomeBooks = () => {
   return (
     <>
@@ -70,35 +72,31 @@ export const AwesomeBooks = () => {
                 feature to use LUXON, which was a project requirement.
               </p>
               <div className="d-flex flex-row justify-content-around">
-                <a
-                  className="btn btn-info"
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://mattgomb.github.io/awesome-books-ES6/"
-                  role="button"
                 >
                   See Live
-                </a>
-                <a
-                  className="btn btn-info"
+                </Button>
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/MattGomb/awesome-books-ES6"
-                  role="button"
                 >
-                  {" "}
                   See Source
-                </a>
+                </Button>
               </div>
             </div>
             <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-danger"
+              <Button
+                variant="danger"
                 data-bs-dismiss="modal"
               >
                 Close
-              </button>
+              </Button>
             </div>
           </div>
         </div>

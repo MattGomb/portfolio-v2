@@ -7,23 +7,40 @@ import {
   faMedium,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { Button } from "react-bootstrap";
 
 export const Welcome = () => {
   return (
     <>
       <section id="welcome" style={{ padding: "8rem 0" }}>
         <div className="row px-2 gx-0">
-          <div
-            className="card py-3 px-5 bg-dark text-light border-info col-12 col-md-6"
-            style={{ height: "fit-content" }}
-          >
-            <h1 className="display-3">MÁTYÁS GOMBOS</h1>
-            <p>
-              Fullstack web developer. I can help you build a product, feature
-              or website. Look through some of my work and experience! If you
-              like what you see and have a project you need help with, don’t
-              hestiate to contact me!
-            </p>
+          <div className="d-flex flex-column col-12 col-md-6 align-items-center">
+            <div
+              className="card py-3 px-5 bg-dark text-light border-info"
+              style={{ height: "fit-content" }}
+            >
+              <h1 className="display-3">MÁTYÁS GOMBOS</h1>
+              <p>
+                Fullstack web developer. I can help you build a product, feature
+                or website. Look through some of my work and experience! If you
+                like what you see and have a project you need help with,
+                don&apos;t hesitate to contact me!
+              </p>
+            </div>
+            <Button
+            variant="outline-info"
+              className="buttonCV gradient-border"
+              style={{
+                margin: "3rem 0",
+                padding: "1.5rem 2rem",
+                fontSize: "1.5rem",
+              }}
+              href="/CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download my CV
+            </Button>
           </div>
           <div className="d-flex justify-content-center col-12 col-md-6">
             <ProfilePic />

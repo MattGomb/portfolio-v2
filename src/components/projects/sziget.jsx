@@ -1,3 +1,5 @@
+import { Button } from "react-bootstrap";
+
 export const Sziget = () => {
   return (
     <>
@@ -35,7 +37,7 @@ export const Sziget = () => {
             </ul>
           </div>
           <p className="card-text">
-            The first capstone project, where i recreate the Hungarian SZIGET
+            The first capstone project, where I recreated the Hungarian SZIGET
             festival&apos;s website according to the project-requirement-guidelines.
             This project is a combination of all the tips and tricks we have
             learned up to that point.
@@ -71,35 +73,31 @@ export const Sziget = () => {
                 all the tips and tricks we have learned up to that point.
               </p>
               <div className="d-flex flex-row justify-content-around">
-                <a
-                  className="btn btn-info"
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://mattgomb.github.io/Microverse-1st-Capstone-project/index.html"
-                  role="button"
                 >
                   See Live
-                </a>
-                <a
-                  className="btn btn-info"
+                </Button>
+                <Button
+                  variant="info"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://github.com/MattGomb/Microverse-1st-Capstone-project"
-                  role="button"
                 >
-                  {" "}
                   See Source
-                </a>
+                </Button>
               </div>
             </div>
             <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-danger"
+              <Button
+                variant="danger"
                 data-bs-dismiss="modal"
               >
                 Close
-              </button>
+              </Button>
             </div>
           </div>
         </div>
