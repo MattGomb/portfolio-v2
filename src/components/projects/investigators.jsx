@@ -4,7 +4,7 @@ export const Investigators = () => {
   return (
     <>
       <div
-        className="card card-b m-3 p-2 bg-dark text-light border-info d-flex flex-column flex-md-row col-md-8 col-xl-5"
+        className="card card-b m-3 p-2 bg-dark text-light border-info d-flex flex-column flex-md-row col-md-8 col-xl-5 align-items-center"
         data-bs-toggle="modal"
         data-bs-target="#inviModal"
       >
