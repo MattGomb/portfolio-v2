@@ -4,6 +4,14 @@ body {
   font-family: "Playfair Display", serif !important;
 }
 
+html {
+  scroll-snap-type: y mandatory;
+}
+
+section {
+  scroll-snap-align: start;
+}
+
 .card-b:hover {
   cursor: pointer;
 }
