@@ -11,14 +11,14 @@ export const Projects = () => {
       <section id="projects" className="py-5">
         <div className="m-3 p-3 d-flex flex-column align-items-center bg-dark text-light">
           <h1 className="card-title">My recent projects:</h1>
-          <section className="row justify-content-center col-12">
+          <div className="row justify-content-center col-12">
             <AwesomeBooks />
             <Leaderboard />
             <Sziget />
             <ApodReact />
             <BudgetApp />
             <Investigators />
-          </section>
+          </div>
         </div>
       </section>
     </>
